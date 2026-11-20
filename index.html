@@ -37,22 +37,24 @@
 
   <h2>2. Zweck der Anwendung</h2>
   <p>
-    Pokémon Listing Manager ist eine Anwendung
-    zur Vorbereitung und Verwaltung von
-    eBay-Angeboten für Pokémon-Sammelkarten.
+    Der Pokémon Listing Manager ist eine ausschließlich vom Betreiber verwendete Anwendung zur Vorbereitung, Erstellung und Verwaltung eigener eBay-Verkaufsangebote für Pokémon-Sammelkarten.
+    Die Anwendung ist nicht für die Nutzung durch Dritte vorgesehen.
   </p>
 
   <h2>3. Datenverarbeitung</h2>
   <p>
-    [Hier wird die tatsächliche Verarbeitung
-    von Bildern, Angebotsdaten, eBay-Daten
-    und gegebenenfalls KI-Diensten beschrieben.]
+    Die Anwendung soll über die offizielle eBay-API auf Funktionen des eigenen Verkäuferkontos zugreifen.
+    Geplant ist die Verarbeitung von Artikelinformationen, Angebotsdaten, Preisen und Bildern, soweit diese zur Erstellung und Verwaltung eigener Angebote erforderlich sind.
+    Daten anderer eBay-Mitglieder, insbesondere personenbezogene Käuferdaten, sollen nicht dauerhaft durch die Anwendung gespeichert werden.
+    Die Anmeldung bei eBay erfolgt über das offizielle OAuth-Verfahren. Das eBay-Passwort wird nicht an die Anwendung übermittelt.
   </p>
 
   <h2>4. Speicherung und Löschung</h2>
   <p>
-    [Hier werden Speicherorte,
-    Speicherdauer und Löschverfahren ergänzt.]
+    Die Anwendung wird über Cloudflare Workers betrieben und durch Cloudflare Access gegen unberechtigten Zugriff geschützt.
+    Die öffentliche Datenschutzerklärung wird über GitHub Pages bereitgestellt.
+    Zum gegenwärtigen Entwicklungsstand ist die eBay-OAuth-Anbindung noch nicht aktiviert. Funktionen zur automatischen KI-Bilderkennung und Marktpreisrecherche sind noch nicht implementiert.
+    Bei einer späteren Erweiterung um zusätzliche Dienste, insbesondere externe KI-Dienste, wird diese Datenschutzerklärung vor deren Einsatz entsprechend aktualisiert.
   </p>
 
   <h2>5. Hosting</h2>
